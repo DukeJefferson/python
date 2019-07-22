@@ -6,5 +6,5 @@ for x in range(N,m+1):
       b[a]=x
     else:
     break
-print(b[])    
+print(*b)    
      

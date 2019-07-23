@@ -1,8 +1,10 @@
 num=int(input())
 sum=0
-while num>0 :
-  digit=num%10
+temp=num
+while temp>0 :
+  digit=temp%10
   sum+=digit**3
+  temp//=0
 if(sum==num):
   print('Yes')
 else:

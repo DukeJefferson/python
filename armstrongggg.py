@@ -1,6 +1,7 @@
 n=int(input())
-m=int(input())
-for a in range(n,m+1):
+n=n.split()
+n=list(map(int,n))
+for a in range(n[0],(n[1])+1):
   temp=a
   sum=0
   while (temp>0):

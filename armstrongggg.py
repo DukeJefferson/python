@@ -1,4 +1,4 @@
-n=int(input())
+n=input()
 n=n.split()
 n=list(map(int,n))
 for a in range(n[0],(n[1])+1):

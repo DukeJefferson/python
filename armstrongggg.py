@@ -8,6 +8,5 @@ for a in range(n,m+1):
     sum+=digit**3
     temp//=10
     if (sum==a):
-      b[]=a
-print(*b)
+      print(a)
     
